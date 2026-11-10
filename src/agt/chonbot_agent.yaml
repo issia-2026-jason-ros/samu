@@ -10,7 +10,7 @@
       topic_type: std_msgs/msg/Float32
       percept_name: ultrasonic
   actions:    
-    topic_writing_actions:
+    service_request_actions:
       - action_name: move
         topic_name: /arduino/motor/command
         topic_type: std_msgs/msg/String
