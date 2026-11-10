@@ -2,4 +2,5 @@
 
 
 +!walk
-   <- .print("I do not know how to satisfy this goal.").
+   <- .print("Hello world.");
+      .print("I do not know how to satisfy this goal.").
