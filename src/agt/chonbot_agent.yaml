@@ -6,9 +6,9 @@
       connection_string: ws://localhost:9090 #connection with ROS
   
   perception_topics:
-      topic_name: /arduino/ultrasonic_sensor/distance
-      topic_type: std_msgs/msg/Float32
-      percept_name: ultrasonic
+      - topic_name: /arduino/ultrasonic_sensor/distance
+        topic_type: std_msgs/msg/Float32
+        percept_name: ultrasonic
   actions:    
     service_request_actions:
       - action_name: move
